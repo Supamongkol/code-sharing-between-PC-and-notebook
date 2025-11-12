@@ -1,0 +1,5 @@
+train: "D:/4.Machine Learning(AI)/Image process/Spring_Yolo_Model/split3/images/train" # Path to training images
+val: "D:/4.Machine Learning(AI)/Image process/Spring_Yolo_Model/split3/images/val" # Path to validation images
+
+nc: 3 # จำนวนคลาส (correct_position, wrong_position, missing)
+names: ["correct", "missing", "wrong"]
