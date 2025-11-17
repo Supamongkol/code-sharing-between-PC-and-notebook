@@ -1,0 +1,5 @@
+train: "D:/4.Machine Learning(AI)/Image process/Spring_Yolo_Model/gasket_spring/images/train" # Path to training images
+val: "D:/4.Machine Learning(AI)/Image process/Spring_Yolo_Model/gasket_spring/images/val" # Path to validation images
+
+nc: 4 # จำนวนคลาส (gasket,spring_correct,spring_missing,spring_wrong)
+names: ["gasket", "spring_correct", "spring_missing", "spring_wrong"]

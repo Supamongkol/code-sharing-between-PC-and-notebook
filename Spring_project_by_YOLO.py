@@ -7,11 +7,11 @@ def main():
 
     # เริ่มการเทรน
     model.train(
-        data="spring_detection.yaml",
+        data="gasket_spring_detection.yaml",
         epochs=50,
         imgsz=640,
         batch=2,
-        name="spring_model_sep2025_augment03",
+        name="gasket_spring_model_sep2025",
         workers=2,
         augment=True
     )
