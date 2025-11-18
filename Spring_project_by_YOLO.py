@@ -3,7 +3,7 @@ from ultralytics import YOLO
 
 def main():
     # โหลดโมเดล YOLO ที่ pre-trained
-    model = YOLO("yolov8n.pt")  # หรือใช้โมเดลอื่น เช่น yolov8s.pt
+    model = YOLO("yolo11n.pt")  # หรือใช้โมเดลอื่น เช่น yolov8s.pt
 
     # เริ่มการเทรน
     model.train(
